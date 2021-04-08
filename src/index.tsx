@@ -3,8 +3,8 @@ import {
   NativeEventEmitter,
 } from "react-native"
 
-const { RNAirplay } = NativeModules
+const { AirplayModule } = NativeModules
 
-export const AirPlay = RNAirplay
+export const AirPlay = AirplayModule
 
-export const AirPlayListener = new NativeEventEmitter(RNAirplay)
+export const AirPlayListener = new NativeEventEmitter(AirplayModule)
