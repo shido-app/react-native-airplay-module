@@ -54,7 +54,7 @@ RCT_EXPORT_METHOD(disconnect) {
         NSDictionary *device = @{
           @"deviceName": deviceName,
           @"portType" : portType,
-          @"isHeadphones": isHeadphones
+          @"isHeadphones": @(isHeadphones)
         };
         [devices addObject: device];
     }
