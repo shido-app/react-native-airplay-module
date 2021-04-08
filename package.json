@@ -17,13 +17,13 @@
     "/lib",
     "/ios"
   ],
-  "repository": "https://github.com/Spicy-Sparks/react-native-airplay",
+  "repository": "https://github.com/Spicy-Sparks/react-native-airplay-module",
   "author": "Spicy Sparks <support@spicysparks.com> (https://github.com/Spicy-Sparks)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Spicy-Sparks/react-native-airplay/issues"
+    "url": "https://github.com/Spicy-Sparks/react-native-airplay-module/issues"
   },
-  "homepage": "https://github.com/Spicy-Sparks/react-native-airplay#readme",
+  "homepage": "https://github.com/Spicy-Sparks/react-native-airplay-module#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

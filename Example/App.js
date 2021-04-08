@@ -8,7 +8,7 @@
 
 import React, { Component } from "react";
 import { Platform, StyleSheet, Text, View } from "react-native";
-import { AirPlayButton } from "react-native-airplay";
+import { AirPlayButton } from "react-native-airplay-module";
 import { AirPlayDevice } from "./AirPlayDevice";
 import { icons } from "./icons";
 

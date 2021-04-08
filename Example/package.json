@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "16.6.3",
     "react-native": "0.58.4",
-    "react-native-airplay": "1.0.0",
+    "react-native-airplay-module": "1.0.1",
     "hoist-non-react-statics": "3.3.0"
   },
   "devDependencies": {

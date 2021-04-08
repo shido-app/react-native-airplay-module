@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text } from 'react-native'
-import { withAirPlayControl } from 'react-native-airplay'
+import { withAirPlayControl } from 'react-native-airplay-module'
 
 type Device = {
   deviceName: string,

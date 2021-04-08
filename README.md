@@ -1,4 +1,4 @@
-# react-native-airplay
+# react-native-airplay-module
 
 AirPlay library for React Native
 
@@ -9,7 +9,7 @@ npm i react-native-airplay-module --save
 react-native link
 ```
 
-Check the [example](https://github.com/Spicy-Sparks/react-native-airplay/blob/master/Example/App.js) project
+Check the [example](https://github.com/Spicy-Sparks/react-native-airplay-module/blob/master/Example/App.js) project
 
 Make sure to enable Swift support in your project, if you haven't done it yet.
 Xcode -> New file -> Swift file -> Create bridging headers
@@ -17,7 +17,7 @@ Xcode -> New file -> Swift file -> Create bridging headers
 ### How to create listeners
 
 ```js
-import { AirPlayListener, AirPlay } from react-native-airplay
+import { AirPlayListener, AirPlay } from react-native-airplay-module
 
 // Setups native listeners which detect audio output route changes
 AirPlay.startScan()
@@ -41,7 +41,7 @@ Also you can import `withAirPlayControl` hoc and wrap your view component like s
 ```js
 import React from "react";
 import { View, Text } from "react-native";
-import { withAirPlayControl } from "react-native-airplay";
+import { withAirPlayControl } from "react-native-airplay-module";
 
 type Device = {
   deviceName: string,
@@ -121,7 +121,7 @@ AirPlay.disconnect();
 ### Create AirPlay Button
 
 ```js
-import { AirPlayButton } from "react-native-airplay";
+import { AirPlayButton } from "react-native-airplay-module";
 <AirPlayButton
   source={{
     disabled: "",
