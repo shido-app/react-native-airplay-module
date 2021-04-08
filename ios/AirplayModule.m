@@ -1,9 +1,8 @@
-#import "RNAirplay.h"
-#import "RNAirplayManager.h"
+#import "AirplayModule.h"
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioToolbox.h>
 
-@implementation RNAirplay
+@implementation AirplayModule
 @synthesize bridge = _bridge;
 
 - (dispatch_queue_t)methodQueue {
