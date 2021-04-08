@@ -5,7 +5,7 @@ AirPlay library for React Native
 ## Installation with Automatic Linking
 
 ```js
-npm i react-native-airplay --save
+npm i react-native-airplay-module --save
 react-native link
 ```
 

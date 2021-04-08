@@ -1,5 +1,5 @@
 {
-  "name": "react-native-airplay",
+  "name": "react-native-airplay-module",
   "description": "AirPlay library for React Native",
   "summary": "Summary for PODS",
   "version": "1.0.0",
@@ -17,10 +17,15 @@
     "/lib",
     "/ios"
   ],
-  "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:Spicy-Sparks/react-native-airplay.git"
+  "repository": "https://github.com/Spicy-Sparks/react-native-airplay",
+  "author": "Spicy Sparks <support@spicysparks.com> (https://github.com/Spicy-Sparks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Spicy-Sparks/react-native-airplay/issues"
+  },
+  "homepage": "https://github.com/Spicy-Sparks/react-native-airplay#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {},
   "peerDependencies": {
