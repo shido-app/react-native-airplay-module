@@ -69,8 +69,6 @@ The result is an object that contains information about currently connected audi
 }
 ```
 
-> Note: Probably it could just be an object, but internally AVAudioSessionRouteDescription returns array, so there _might_ be a case when there is more than one device connected at the time.
-
 ## Methods
 
 ```js
