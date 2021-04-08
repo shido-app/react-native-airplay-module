@@ -9,7 +9,7 @@ npm i react-native-airplay-module --save
 react-native link
 ```
 
-Check the [example](https://github.com/Spicy-Sparks/react-native-airplay-module/blob/main/example/src/app.tsx) project
+Check the [example](https://github.com/Spicy-Sparks/react-native-airplay-module/blob/main/example/src/App.tsx) project
 
 Make sure to enable Swift support in your project, if you haven't done it yet.
 Xcode -> New file -> Swift file -> Create bridging headers
