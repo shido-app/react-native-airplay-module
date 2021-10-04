@@ -34,6 +34,7 @@ RCT_EXPORT_METHOD(disconnect) {
 - (void)sendInformations {
     AVAudioSessionRouteDescription *currentRoute = [[AVAudioSession sharedInstance] currentRoute];
     NSString *deviceName;
+    NSString *connectedDeviceName = @"";
     NSString *portType;
     BOOL isAirPlayPlaying = NO;
     BOOL isMirroring = NO;
@@ -43,6 +44,7 @@ RCT_EXPORT_METHOD(disconnect) {
         isHeadphones = NO;
         if([output.portType isEqualToString:AVAudioSessionPortAirPlay]) {
             isAirPlayPlaying = YES;
+            connectedDeviceName = output.portName;
         }
         else if ([output.portType isEqualToString:AVAudioSessionPortBluetoothA2DP]) {
             isAirPlayPlaying = YES;
@@ -64,6 +66,7 @@ RCT_EXPORT_METHOD(disconnect) {
       @"devices": devices,
       @"connected": @(isAirPlayPlaying),
       @"mirroring": @(isMirroring),
+      @"connectedDeviceName": connectedDeviceName
     }];
 }
 
